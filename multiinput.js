@@ -374,12 +374,6 @@
                         this_.runNext();
                     },
 
-                    onExit: function() {
-                        if (this._oQuickView) {
-                            this._oQuickView.destroy(true);
-                        }
-                    },
-
                     wasteTime: function() {
                         busyDialog.open();
                     },
